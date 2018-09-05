@@ -41,6 +41,5 @@ def play(board)
   until counter == 9
     turn(board)
     counter += 1
-    puts "#{counter}"
   end
 end
